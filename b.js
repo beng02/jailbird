@@ -1,5 +1,5 @@
 $(document).ready(function(){
-var jj = $("a.unduh") && $("b.unduh").length;
+var jj = $("a.unduh").length && $("b.unduh").length;
     for (var i = 0; i < jj; i++) {
      var a = $("a.unduh").eq( i ).attr("href");
        var b = $("b.unduh").eq(i).text();
