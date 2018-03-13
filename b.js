@@ -6,7 +6,14 @@ var jj = $(".unduh").length;
    
    $(".unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + enc + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
     }
+       var jj = $("a.unduh").length;
+    for (var i = 0; i < jj; i++) {
+   var fix = $("a.unduh").eq( i ).text();
+   var enc = btoa( fix );
    
+   $("a.unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + enc + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
+    }
+
 if( $(".link").text() == "hhh" ) {
 
 var url = window.location.href;
@@ -18,5 +25,5 @@ $(".link").html("<center>" +urin+ "' class='vangke'>VISIT LINK</a></center>");
 var vang = atob( $(".vangke").attr("href") );
 $(".vangke").attr("href", vang);
 } // endif
-
+    
 });
