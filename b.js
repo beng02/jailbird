@@ -1,19 +1,11 @@
 $(document).ready(function(){
-var jj = $("b.unduh").length;
+var jj = $("a.unduh") && $("b.unduh").length;
     for (var i = 0; i < jj; i++) {
-   var fix = $("b.unduh").eq( i ).text();
-   var enc = btoa( fix );
-   
-   $("b.unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + enc + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
+     jj.eq( i ).text();
+     var enc = btoa( jj );
+     $("a.unduh") && $("b.unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + enc + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
     }
     
-       var jjj = $("a.unduh").length;
-    for (var i = 0; i < jjj; i++) {
-   var fx = $("a.unduh").eq( i ).attr('href');
-   var ec = btoa( fx );
-   
-   $("a.unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + ec + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
-    }
 
 if( $(".link").text() == "hhh" ) {
 
