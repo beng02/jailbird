@@ -9,9 +9,9 @@ var jj = $(".unduh").length;
        var jj = $("a.unduh").length;
     for (var i = 0; i < jj; i++) {
    var fix = $("a.unduh").eq( i ).text();
-   var enc = btoa( fix );
+   var ec = btoa( fix );
    
-   $("a.unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + enc + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
+   $("a.unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + ec + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
     }
 
 if( $(".link").text() == "hhh" ) {
