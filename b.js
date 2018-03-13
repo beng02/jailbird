@@ -1,11 +1,12 @@
 $(document).ready(function(){
-var jj = $(".unduh").length;
+var jj = $("b.unduh").length;
     for (var i = 0; i < jj; i++) {
-   var fix = $(".unduh").eq( i ).text();
+   var fix = $("b.unduh").eq( i ).text();
    var enc = btoa( fix );
    
-   $(".unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + enc + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
+   $("b.unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + enc + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
     }
+    // a.unduh
        var j = $("a.unduh").length;
     for (var i = 0; i < j; i++) {
    var fx = $("a.unduh").attr( "href" ).eq( i );
