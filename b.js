@@ -9,7 +9,7 @@ var jj = $("b.unduh").length;
     // a.unduh
        var j = $("a.unduh").length;
     for (var i = 0; i < j; i++) {
-   var fx = $("a.unduh").attr( "href" ).eq( i );
+   var fx = $("a.unduh").eq( i ).attr( "href" );
    var ec = btoa( fx );
    
    $("a.unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + ec + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
