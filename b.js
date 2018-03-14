@@ -7,7 +7,8 @@ var jjj = $("b.unduh");
      var enca = btoa( a );
      $("a.unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + enca + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
     }
-      } else if ( jjj == $("b.unduh")){
+     }
+  if ( jjj == $("b.unduh")){
     for (var u = 0; u < jjj.length; u++) {
      var b = $("b.unduh").eq( u ).text();
      var encb = btoa( b );
