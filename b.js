@@ -1,7 +1,7 @@
 $(document).ready(function(){
 var jj = $(".unduh");
     for (var i = 0; i < jj.length; i++) {
-    if ( jj === $("a.unduh")){
+    if ( $("a") === hasClass("unduh")){
       var a = $(".unduh").eq( i ).attr("href");
      var enca = btoa( a );
      $(".unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + enca + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
