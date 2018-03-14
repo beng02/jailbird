@@ -1,20 +1,15 @@
 $(document).ready(function(){
-var jj = $("a.unduh");
-var jjj = $("b.unduh");
-  if ( jj == $("a.unduh")){
+var jj = $(".unduh");
     for (var i = 0; i < jj.length; i++) {
-     var a = $("a.unduh").eq( i ).attr("href");
+    if ( jj === $("a.unduh")){
+      var a = $(".unduh").eq( i ).attr("href");
      var enca = btoa( a );
-     $("a.unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + enca + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
+     $(".unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + enca + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
+    } else {
+      var b = $(".unduh").eq( i ).text();
+      var encb = btoa( b );
+     $(".unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + encb + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
     }
-     }
-  if ( jjj == $("b.unduh")){
-    for (var u = 0; u < jjj.length; u++) {
-     var b = $("b.unduh").eq( u ).text();
-     var encb = btoa( b );
-     $("b.unduh").eq( u ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + encb + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
-    }
-      }
     
 
 if( $(".link").text() == "hhh" ) {
