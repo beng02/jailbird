@@ -1,9 +1,9 @@
 $(document).ready(function(){
-var jj = $("a.unduh").length;
+var jj = $("a.tex").length;
     for (var i = 0; i < jj; i++) {
-     var a = $("a.unduh").eq( i ).attr("href");
+     var a = $("a.tex").eq( i ).attr("href");
      var enca = btoa( a );
-     $("a.unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + enca + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
+     $("a.tex").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + enca + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
     }
 var jjj = $("b.unduh").length;
     for (var u = 0; u < jjj; u++) {
