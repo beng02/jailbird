@@ -6,10 +6,10 @@ var jj = $("a.unduh").length;
      $("a.unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + enca + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
     }
 var jjj = $("b.unduh").length;
-    for (var i = 0; i < jjj; i++) {
-     var b = $("b.unduh").eq( i ).text();
+    for (var u = 0; u < jjj; u++) {
+     var b = $("b.unduh").eq( u ).text();
      var encb = btoa( b );
-     $("b.unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + encb + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
+     $("b.unduh").eq( u ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + encb + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
     }
     
 
