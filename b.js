@@ -10,7 +10,7 @@ var jj = $(".unduh").length;
       var encb = btoa( b );
      $(".unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + encb + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
     }
-    
+    }
 
 if( $(".link").text() == "hhh" ) {
 
