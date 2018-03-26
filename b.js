@@ -3,8 +3,9 @@ var jj = $(".unduh").length;
     for (var i = 0; i < jj; i++) {
     if ( $("a.unduh").length == jj ){
       var a = $(".unduh").eq( i ).attr("href");
-     var enca = btoa( a );
-     $(".unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + enca + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
+      var te = $(".unduh").eq( i ).text();
+        var enca = btoa( a );
+     $(".unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + enca + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a><b> -- "+te+" --</b>");
     } else {
       var b = $(".unduh").eq( i ).text();
       var encb = btoa( b );
