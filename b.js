@@ -5,7 +5,7 @@ var jj = $(".unduh").length;
       var a = $(".unduh").eq( i ).attr("href");
       var te = $(".unduh").eq( i ).text();
         var enca = btoa( a );
-     $(".unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + enca + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a><b> -- "+te+" --</b>");
+     $(".unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + enca + "'><strong>-- "+te+" --</strong></a>");
     } else {
       var b = $(".unduh").eq( i ).text();
       var encb = btoa( b );
