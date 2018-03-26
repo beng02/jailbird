@@ -3,12 +3,11 @@ var jj = $(".unduh").length;
     for (var i = 0; i < jj; i++) {
     if ( $("a.unduh").length == jj ){
       var a = $(".unduh").eq( i ).attr("href");
-      var te = function(){
-          $(".unduh").eq( i ).text();
-          if ( $(".unduh").eq( i ).text().length == 0 ){
+      var te = $(".unduh").eq( i ).text();
+          if ( te.length == 0 ){
               $(".unduh").eq( i ).html();
               }
-          }
+          
         var enca = btoa( a );
      $(".unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + enca + "'><strong>-- "+te+" --</strong></a>");
     } else {
