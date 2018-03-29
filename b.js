@@ -8,9 +8,9 @@ var jj = $(".unduh").length;
         var enca = btoa( a );
      $(".unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + enca + "'><strong>-- "+te+" --</strong></a>");
     } else {
-      var b = $(".unduh").eq( i ).text();
+      var b = $("b.unduh").eq( i ).text();
       var encb = btoa( b );
-     $(".unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + encb + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
+     $("b.unduh").eq( i ).html("<a rel='nofollow' href='http://jail-bird.blogspot.co.id/p/link.html#" + encb + "'><input type='button' style='color:red;text-color:white;margin:3px;padding:3px;' value='INI LINKNYA' /></a>");
     }
     }
 
