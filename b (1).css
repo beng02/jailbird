@@ -1,0 +1,44 @@
+/* CSS Body Layout */
+#layout ul,body#layout div.section h4,#layout div.section h4,body#layout ul,body#layout .top-tab-widget-menu ul {display:none;}
+#layout,#layout .widget-content,#layout .add_widget {border:none;}
+#layout .add_widget a {color:#444;}
+#layout:before {content:'Vienna Lite 2';text-transform:uppercase;font-size:20px;color:#999;margin:0 0 20px 0;display:inline-block;font-weight:700;font-family:sans-serif;}
+#layout #header-wrapper{min-height:0px;width:100%;margin:10px 0 0 0;}
+#layout #footer-wrapper{padding:20px 0;overflow:visible;background:#fdfdfd;border-top:1px solid #ccc;}
+#layout #footer-wrapper .add_widget {background-color:#8b9898;border:none;}
+#layout #footer-wrapper .add_widget a,#layout div#mag-wrapper .add_widget a,#layout div#mag-wrapper2 .add_widget a {color:#fff;}
+#layout #footer-wrapper .footer-column{width:33.33%;float:left}
+#layout #footer-wrapper #column1,#layout #footer-wrapper #column2{margin:0}
+#layout #footer-wrapper:before {content:'Footer Wrapper';text-transform:uppercase;font-size:16px;color:#aaa;margin:0 0 20px 0;display:inline-block;font-weight:700;font-family:sans-serif;}
+#layout div#post-wrapper:before {content:'Post Wrapper';text-transform:uppercase;font-size:16px;color:#aaa;margin:0 0 20px 0;display:inline-block;font-weight:700;font-family:sans-serif;}
+#layout #main-wrapper{width:70%;float:left}
+#layout #sidebar-wrapper{width:30%;left:0;padding:0;float:right}
+#layout #sidebar-wrapper:before {content:'Sidebar Wrapper';text-transform:uppercase;font-size:16px;color:#aaa;margin:0 0 20px 0;display:inline-block;font-weight:700;font-family:sans-serif;}
+#layout .draggable-widget .widget-wrap2 {background:#c1cfd9;}
+#layout #banner,#layout #banner2 {background-color:#5f6868;padding:20px 0!important;margin-bottom:20px;}
+#layout #banner:before,#layout #banner2:before{content:'Ad Slot 970x90';font-size:13px;color:#fff;margin-bottom:20px;padding-bottom:5px;display:inline-block;font-weight:400;font-family:sans-serif}
+#layout #banner .widget,#layout #banner2 .widget{width:80%;margin:5px auto!important;overflow:hidden;float:none}
+#layout #banner .add_widget,#layout #banner2 .add_widget{width:80%;margin:5px auto!important;overflow:hidden;float:none}
+#layout div#mag-wrapper .add_widget,#layout div#mag-wrapper2 .add_widget{background-color:#649fd0;border:none}
+iframe#editorframe,#editorframe {width:1000px!important;;}
+body#layout div#post-wrapper,body#layout #post-wrapper,#layout #post-wrapper {float:left;width:70%;}
+body#layout div.section,#layout div.section{background-color:transparent;border:0;font-family:sans-serif;margin:0;overflow:visible;padding:0;position:relative}
+body#layout #viennalite-wrapper, body#layout .post-inner, body#layout .sidebar, body#layout .sidebar-two,body#layout #wrapper, body#layout .post-inner, body#layout .sidebar-inner {padding:0;}
+body#layout #main{position:relative;background-color:#636798;padding:20px 10px!important;margin-bottom:20px;clear:both}
+body#layout #main:before{content:'Recent Post';font-size:13px;color:#fff;margin-bottom:20px;padding-bottom:5px;display:block;font-weight:400;font-family:sans-serif}
+body#layout .vita-list {float:left;width:79px;}
+body#layout .header-wrapper {margin-top:0;}
+body#layout #navigation {float:left;width:100%;}
+body#layout .vita-list {float:left;width:100%;}
+body#layout #header-wrapper {min-height:0px;width:100%;}
+body#layout #header {width:30%;}
+body#layout #header-right {width:70%;}
+body#layout #vita-list-1, body#layout #vita-list-2 {width:50%;float:left;}
+body#layout .add_widget {border:1px solid #ddd;}
+body#layout #carousel {background-color:#f9aa4f;padding:20px 0!important;margin-bottom:20px;}
+body#layout #carousel:before{content:'Slider';font-size:13px;color:#fff;margin-bottom:20px;padding-bottom:5px;display:inline-block;font-weight:400;font-family:sans-serif}
+body#layout div#mag-wrapper,body#layout div#mag-wrapper2{width:100%;position:relative;display:inline-block;background-color:#78b9ef;padding:20px 0 !important;margin-bottom:20px;clear:both}
+body#layout div#mag-wrapper:before,body#layout div#mag-wrapper2:before{content:'Mag Section';font-size:13px;color:#fff;margin-bottom:20px;padding-bottom:5px;display:block;font-weight:400;font-family:sans-serif}
+body#layout #viennaprobox-1,body#layout #viennaprobox-2,body#layout #viennaprobox-3,body#layout #viennaprobox-4,body#layout #viennaprobox-5,body#layout #viennaprobox-6{width:48%;margin:4px;float:left;display:list-item;list-style:none}
+body#layout #main,body#layout #main2{position:relative;background-color:#636798;padding:20px 10px !important;margin-bottom:20px;clear:both}
+
