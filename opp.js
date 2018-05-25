@@ -9,10 +9,11 @@ hid.hide();
 var tit = $("title:eq(1)").text();
 $("title:eq(0)").text( tit );
 
-var lik = $("div.download-link").attr("href");
+var lik = $("div.download-link a").attr("href");
+  var tt = ":to-no:";
   if (tt = 1){
 
-window.location.href = "index.html";
+window.location.href = lik;
 
 }
 
