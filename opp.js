@@ -11,7 +11,7 @@ $("title:eq(0)").text( tit );
 
 var lik = $("div.download-link a").attr("href");
  var tt = ":page_url:";
-  if (tt = ":site_url:/link-u.html?to-no=2&to-r=:to-r:"){
+  if (tt == ":site_url:/link-u.html?to-no=1&to-r=:to-r:"){
 
 window.location.href = lik;
 
