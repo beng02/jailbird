@@ -10,7 +10,7 @@ var tit = $("title:eq(1)").text();
 $("title:eq(0)").text( tit );
 
 var lik = $("div.download-link a").attr("href");
-  var tt = ":to-no:";
+ /** var tt = ":to-no:";
   if (tt = 1){
 
 window.location.href = lik;
@@ -21,7 +21,7 @@ if (tt = 2){
 
 window.location.href = lik;
 
-}
+} **/
 $("#telo").remove();
 
 });
