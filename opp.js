@@ -10,18 +10,18 @@ var tit = $("title:eq(1)").text();
 $("title:eq(0)").text( tit );
 
 var lik = $("div.download-link a").attr("href");
- /** var tt = ":to-no:";
-  if (tt = 1){
+ var tt = ":page_url:";
+  if (tt = ":site_url:/link-u.html?to-no=2&to-r=:to-r:"){
 
 window.location.href = lik;
 
 }
 
-if (tt = 2){
+if (tt == ":site_url:/link-u.html?to-no=2&to-r=:to-r:" ){
 
 window.location.href = lik;
 
-} **/
+} 
 $("#telo").remove();
 
 });
