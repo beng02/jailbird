@@ -9,8 +9,7 @@ hid.hide();
 var tit = $("title:eq(1)").text();
 $("title:eq(0)").text( tit );
 
-var lik = $("div.download-link").html();
-$("#link").html("<br /><center style='font-weight:bold;font-size:large;text-color:red;'>"+lik+"</center>");
+var lik = $("div.download-link").attr( "href" );
 $("#telo").remove();
 
 });
